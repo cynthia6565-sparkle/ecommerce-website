@@ -7,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/product.css">
+    <link rel="stylesheet" href="/search.css">
     <script src="shop.js"></script>
+    <script src="footer.js"></script>
+    <script src="product.js"></script>
+    
 </head>
 
 <body>
@@ -28,16 +33,22 @@
         </div>
         <ul class="links-container">
             <li class="link-item"><a href="#" class="link">home</a></li>
-            <li class="link-item"><a href="#" class="link">ladies</a></li>
-            <li class="link-item"><a href="#" class="link">men</a></li>
+            <li class="link-item"><a href="#" class="link">Boots</a></li>
+            <li class="link-item"><a href="#" class="link">heels</a></li>
             <li class="link-item"><a href="#" class="link">kids</a></li>
+            <li class="link-item"><a href="#" class="link">leather</a></li>
+            <li class="link-item"><a href="#" class="link">sneakers</a></li>
 
         </ul>
+        ;
+    }
+    <nav class="nav-bar"></nav>
+    <script src="/shop.js"></script>
 
-    </nav>
+</nav>
     <header class="hero-section">
         <div class="content">
-            <img src="/shoes/logo.jpg" class="logo" alt="">
+            <img src="/shoes/background.jpg" class="background" alt="">
             <p class="subheading">craft your own footprint</p>
 
         </div>
@@ -51,13 +62,13 @@
         <div class="product-card">
         <div class="product-image">
             <span class="discount-tag">20% off</span>
-            <img src="/shoes/boots 1.jpg" class="product-thumb" alt="">
-            <button class="card-btn">add to whislist</button>
+            <img src="/shoes/kids/kids .jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to wishlist</button>
 
         </div>
         <div class="product-info">
             <h2 class="product-brand">brand</h2>
-            <p class="product-short-des">this is a ladies' boot</p>
+            <p class="product-short-des">gives those tiny foot prints</p>
             <span class="price">64$</span><span class="actual-price">80$</span>
 
 
@@ -68,17 +79,76 @@
             <div class="product-card">
                 <div class="product-image">
                     <span class="discount-tag">20% off</span>
-                    <img src="/shoes/boots 9.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
+                    <img src="/shoes/boots/boots 7.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to wishlist</button>
                 </div>
                 <div class="product-info">
                     <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">for the kids</p>
+                    <p class="product-short-des">long lasting boot</p>
                     <span class="price">$48</span><span class="actual-price">$60</span>
                 </div>
             </div>
-<button class="pre-btn"><img src="/shoes/sneakers (1).jpeg" alt=""></button>
-<button class="nxt-btn"><img src="/shoes/leather 2.jpg" alt=""></button>
+            //before product-container element.
+<button class="pre-btn"><img src="" alt=""></button>
+<button class="pre-btn"><img src="" alt=""></button>
+<footer>
+ <p class="footer-title">about company</p>
+ <p class="info"> it is primarily engaged in the retail sale of men's, women's and children's footwear</p>
+ <p class="info"> support emails - help@Nshoes.com,customersupport@Nshoes.com</p>
+ <p class="info">telephone - +25470101605,+254743760491</p>
+ <div class="footer-social-container">
+    <div>
+        <a href="#" class="social-link">terms & services</a>
+        <a href="#" class="social-link"> privacy page</a>
+
+    </div>
+    <div>
+        <a href="#" class="social-link"> instagram</a>
+        <a href="#" class="social-link"> facebook</a>
+        <a href="#" class="social-link"> twitter</a>
+    </div>
+ </div>
+ <p class="footer-credit">Nshoes,best online shoe shop</p>  
+</footer>
+<section class="product">
+    <div class="image-slider">
+        <div class="product-images">
+            <img src="shoes/boots/boots 1.jpg" class="active" alt="">
+            <img src="shoes/heels/heels 2.jpg" alt="">
+            <img src="/shoes/leather/download (1).jpeg" alt="">
+            <img src="/shoes/kids/images (2).jpeg" alt="">
+
+        </div>
+
+    </div>
+</section>
+<section>
+    <div class="details">
+        <h2 class="product-brand">boots</h2>
+        <span class="product-price">$99</span>
+        <span class="product-actual-price">$200</span>
+        <span class="product-discount">50% off</span>
+
+        <p class="product-sub-heading"></p>
+
+        <input type="radio" name="size" value="38" checked hidden id="38">
+        <label for="38" class="size-radio-btn check">38</label>
+        <input type="radio" name="size" value="40" hidden id="40">
+        <label for="40" class="size-radio-btn">40</label>
+        <input type="radio" name="size" value="41" hidden id="41">
+        <label for="41" class="size-radio-btn">41</label>
+        <input type="radio" name="size" value="42" hidden id="42">
+        <label for="42" class="size-radio-btn">42</label>
+
+        <button class="btn cart-btn">add to cart</button>
+        <button class="btn">add to wishlist</button>
+
+    </div>
+</section>
+<section class="search-results">
+    <h2 class="heading">search results for <span>product</span></h2>
+
+</section>
 
 </body>
 
